@@ -1,0 +1,14 @@
+.Python
+venv
+env
+bin
+lib
+include
+scripts
+.DS_Store
+*.pyc
+*.db
+production_settings.py
+local_settings.py
+debug_toolbar
+endless_pagination

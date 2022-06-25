@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load i18n  mezzanine_tags staticfiles%}
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+{% block breadcrumb_wrapper %}
+{% endblock %}
+
+{% block title_wrapper %}
+{% endblock %}
+
+{% block all_content %}
+
+ <!--Slider-->
+    <section id="slide-show">
+     <div id="slider" class="sl-slider-wrapper">
+
+        <!--Slider Items-->    
+        <div class="sl-slider">
+            <!--Slider Item1-->
+            <div class="sl-slide item1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                    <div class="container">
+                        <img class="pull-right" src="{% static "images/sample/slider/img1.png" %}" alt="" />
+                        <h2>The Best Future Public School</h2>
+                        <h3 class="gap">Having passion for blogging takes me to this.</h3>
+                        <a class="btn btn-large btn-transparent" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!--/Slider Item1-->
+
+            <!--Slider Item2-->
+            <div class="sl-slide item2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                    <div class="container">
+                        <img class="pull-right" src="{% static "images/sample/slider/img2.png" %}" alt="" />
+                        <h2>Connected to Printing press. You can contact me at my number. </h2>
+                        <h3 class="gap"></h3>
+                        <a class="btn btn-large btn-transparent" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!--Slider Item2-->
+
+            <!--Slider Item3-->
+            <div class="sl-slide item3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                   <div class="container">
+                    <img class="pull-right" src="{% static "images/sample/slider/img3.png" %}" alt="" />
+                    <h2>The roots of education are bitter, but the fruit is sweet.</h2>
+                    <h3 class="gap"></h3>
+                    <a class="btn btn-large btn-transparent" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!--Slider Item3-->
+
+    </div>
+    <!--/Slider Items-->
+
+    <!--Slider Next Prev button-->
+    <nav id="nav-arrows" class="nav-arrows">
+        <span class="nav-arrow-prev"><i class="icon-angle-left"></i></span>
+        <span class="nav-arrow-next"><i class="icon-angle-right"></i></span> 
+    </nav>
+    <!--/Slider Next Prev button-->
+
+</div>
+<!-- /slider-wrapper -->           
+</section>
+<!--/Slider-->
+
+
+{% block left_wrapper %}
+{% endblock %}
+
+
+{% block main_wrapper %}
+
+
+{% endblock %}
+{% block right_wrapper %}
+{% endblock %}
+
+
+
+{% endblock %}
